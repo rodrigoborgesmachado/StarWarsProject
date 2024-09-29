@@ -2,7 +2,7 @@
 {
     public class Settings
     {
-        public string UserName { get; set; }
-        public string Token { get; set; }
+        public string USER_NAME { get; set; }
+        public string TOKEN_ACCESS { get; set; }
     }
 }
