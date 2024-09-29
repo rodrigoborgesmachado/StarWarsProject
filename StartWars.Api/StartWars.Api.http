@@ -1,0 +1,6 @@
+@StartWars.Api_HostAddress = http://localhost:5209
+
+GET {{StartWars.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
