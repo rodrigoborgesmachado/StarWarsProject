@@ -26,8 +26,8 @@ namespace StartWars.Api.Controllers
         [HttpPost]
         public async Task<IResult> TokenAsync(GetTokenRequest request)
         {
-            var usernameSecret = _settings.UserName;
-            var tokenSecret = _settings.Token;
+            var usernameSecret = _settings.USER_NAME;
+            var tokenSecret = _settings.TOKEN_ACCESS;
 
             if (request.UserName.Equals(usernameSecret))
             {
