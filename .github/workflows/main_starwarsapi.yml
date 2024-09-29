@@ -51,4 +51,4 @@ jobs:
           app-name: 'StarWarsAPI'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_88C9AF4F49264FDFB5ED7CE6560B63C0 }}
-          package: myapp
+          package: .
